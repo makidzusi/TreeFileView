@@ -1,5 +1,7 @@
 # html vue test
 
+## My first test task for the position of junior developer, which I successfully received, no changes in the code since September 2021
+
 ## Objective
 Provide a responsive presentation of files and folders in any style of your choice and publish on github pages
 
