@@ -1,0 +1,41 @@
+.file-row {
+    width: 100%;
+    color: $whitegrey;
+    display: flex;
+    margin-top: 5px;
+    cursor: pointer;
+    @media screen and (max-width: 767px) {
+      justify-content: space-between;
+    }
+    &:hover {
+      background-color: $hovercolor;
+    }
+    &__name {
+      overflow: hidden;
+      white-space: nowrap;
+      @media screen and (min-width: 767px) {
+        width: 50%;
+      }
+    }
+    &__type {
+      @media screen and (min-width: 767px) {
+        width: 35%;
+        padding-right: 0;
+      }
+      padding-right: 15px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    &__lenght {
+      width: 15%;
+      overflow: hidden;
+      white-space: nowrap;
+      @media screen and (max-width: 767px) {
+        display: none;
+      }
+    }
+    margin-bottom: 5px;
+    &:focus {
+      background-color: $hovercolor;
+    }
+  }

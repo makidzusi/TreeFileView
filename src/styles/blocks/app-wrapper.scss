@@ -1,0 +1,13 @@
+.app-wrapper {
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: grey;
+    margin-top: 50px;
+    @media screen and (min-width: 320px) {
+      width: 95%;
+    }
+    @media screen and (min-width: 1024px) {
+      width: 75%;
+    }
+  }

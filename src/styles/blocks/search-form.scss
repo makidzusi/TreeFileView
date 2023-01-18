@@ -1,0 +1,17 @@
+.search-form {
+  background: transparent;
+  flex-grow: 1;
+  color: $whitegrey;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  @media screen and (max-width: 370px) {
+    height: 45px;
+    padding-bottom: 15px;
+    padding-left: 0;
+    &::placeholder {
+      text-align: center;
+      white-space: normal;
+    }
+  }
+}
